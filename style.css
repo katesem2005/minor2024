@@ -1,0 +1,122 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+main{
+	border: thin solid #999;
+	width: 1440px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-radius: 30px;
+}
+
+header{
+	background-image: url(../header0.jpg);
+	border-radius: 30px 30px 0px 0px;
+	background-repeat: no-repeat;
+	height: 200px;
+
+}
+
+nav{
+	background-image: url(../nav-bg.jpg);
+	background-repeat:  repeat-x;
+	font-family:  'Pattaya', sans-serif;
+	font-size:  120%;
+	line-height: 1.8em;
+	font-style:  normal;
+	color:  black;
+	background-position:  35px;
+	font-weight: bold;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	text-indent: 45px;
+}
+
+nav li{
+
+	margin-top:  0px;
+	margin-right: 28px;
+	margin-left: 80px;
+	margin-bottom:  8px;
+	display: inline; /*задаем способ отображения блочных эл-в, в даном случае в строчку*/
+	height:  auto;
+}
+
+nav li a{
+	text-decoration:  none; /*убираем подчеркивание ссылок*/
+	color:  #FF0F5;
+}
+nav li a:hover{
+	color:  #FFFF;
+}
+
+
+
+#sidebar{/*стиль общий для всего эл-та*/
+	width: 210px;
+	height: 600px;
+	margin-top: 10px;
+	margin-left:  10px;
+	margin-bottom: 15px;
+	border-radius:  5px;
+	background-color:  #F8F8FF;
+	float:  left;
+}
+
+#sidebar ul{
+	list-style-type: none;
+	text-align:  center;
+}
+
+#sidebar li{
+	margin-top: 20px;
+	margin-bottom: 8px;
+}
+
+#sidebar li a{
+	text-decoration:  none;
+	color:  #8B4513;
+}
+
+#sidebar li a:hover{/*стилизация при наведении на эл-ты указателя мыши*/
+	color:  #A9A9A9;
+}
+
+body{
+	font-famile:  'Pattaya', sans-serif;
+	font-size:  18px;
+}
+
+#content{
+	width: 1200px;
+	height:  600px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom:  15px;
+	border-radius: 5px;
+	background-color: #FFF5EE;
+	float:  right;
+}
+
+footer{
+    background-color:#00CCFF;
+    color:#fff;
+    font-family: 'Pattaya', sans-serif;
+    font-style: normal;
+    font-size: 120%;
+    padding:5px;
+    width:1430px;
+    height:100px;
+    border-radius:0px 0px 30px 30px;
+    clear:both;
+}
+
+
+
